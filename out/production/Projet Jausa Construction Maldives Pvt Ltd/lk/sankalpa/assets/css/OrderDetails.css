@@ -1,0 +1,34 @@
+#txtP_Id{
+    -fx-background-radius: 30 30 30 30;
+}#txtP_Owner_NIC{
+    -fx-background-radius: 30 30 30 30;
+}#txtItemId{
+    -fx-background-radius: 30 30 30 30;
+}#txtOrderId{
+    -fx-background-radius: 30 30 30 30;
+}
+
+#txtP_Name{
+    -fx-background-radius: 30 00 30 00;
+}
+#txtP_Cost{
+    -fx-background-radius: 30 00 30 00;
+}#txtItem_Name{
+    -fx-background-radius: 30 00 30 00;
+}#txtP_O_Name{
+    -fx-background-radius: 30 00 30 00;
+}#txtP_O_Address{
+    -fx-background-radius: 30 00 30 00;
+}#txtP_O_Number{
+    -fx-background-radius: 30 00 30 00;
+}#txtxOrdere_QTY{
+    -fx-background-radius: 30 00 30 00;
+}#txtItem_Price{
+    -fx-background-radius: 30 00 30 00;
+}#txtProjectName{
+    -fx-background-radius: 30 00 30 00;
+}#txtxOrdere_Date{
+    -fx-background-radius: 30 00 30 00;
+}#txtxOrdere_Cost{
+    -fx-background-radius: 30 00 30 00;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paymentPane" prefHeight="995.0" prefWidth="1550.0" style="-fx-background-color: #F2E7FE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.sankalpa.controller.PaymentFormController">
+   <children>
+      <Label alignment="CENTER" prefWidth="1550.0" style="-fx-background-color: #6200EE;" text="Payment Form">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPaymentId" disable="true" layoutX="166.0" layoutY="110.0" prefHeight="40.0" prefWidth="105.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="85.0" layoutY="110.0" prefHeight="40.0" prefWidth="81.0" text="Payment Id:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXHamburger fx:id="hbMenu" layoutX="1510.0" layoutY="14.0" />
+      <Pane fx:id="ManagerMenu" layoutX="1350.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #064264;">
+         <children>
+            <Label fx:id="lblManager" layoutX="34.0" layoutY="83.0" onMouseClicked="#backToManagerForm" prefHeight="17.0" prefWidth="132.0" text="Manager Form" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXHamburger fx:id="hbCloseOnAction" layoutX="156.0" layoutY="14.0" />
+            <Label fx:id="lblStock" layoutX="20.0" layoutY="125.0" onMouseClicked="#backToStockOnAction" prefHeight="18.0" prefWidth="159.0" text="Stock Manage" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProject" layoutX="20.0" layoutY="155.0" onMouseClicked="#backToProjectsOnAction" prefHeight="18.0" prefWidth="159.0" text="Project  Manage" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPayments" layoutX="20.0" layoutY="185.0" onMouseClicked="#backToPaymentOnAction" prefHeight="18.0" prefWidth="159.0" text="Project Owner Manage" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblIncome" layoutX="20.0" layoutY="215.0" onMouseClicked="#backToIncomeOnAction" prefHeight="18.0" prefWidth="159.0" text="Income" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblReport" layoutX="20.0" layoutY="325.0" onMouseClicked="#backToReportOnAction" prefHeight="18.0" prefWidth="159.0" text="Income Repoart" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrders" layoutX="20.0" layoutY="245.0" onMouseClicked="#baackToOrderManage" prefHeight="18.0" prefWidth="159.0" text="Order Manage" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblEmployee" layoutX="20.0" layoutY="275.0" onMouseClicked="#backToEmployeeOnAction" prefHeight="18.0" prefWidth="159.0" text="Employee Manage" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDetails" layoutX="20.0" layoutY="350.0" onMouseClicked="#backToDetailsOnAction" prefHeight="18.0" prefWidth="159.0" text="Order Details" textFill="#f8f8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="txtPaymentNIC" layoutX="166.0" layoutY="282.0" prefHeight="40.0" prefWidth="259.0" promptText="NIC">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPaymentPrice" layoutX="500.0" layoutY="282.0" prefHeight="40.0" prefWidth="259.0" promptText="Price">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPaymentDate" layoutX="832.0" layoutY="282.0" prefHeight="40.0" prefWidth="259.0" promptText="Date">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="tblPayment" layoutX="75.0" layoutY="440.0" prefHeight="450.0" prefWidth="1400.0" style="-fx-background-color: #91da75;">
+        <columns>
+          <TableColumn fx:id="colPaymentId" minWidth="350.0" prefWidth="75.0" text="Payment Id" />
+          <TableColumn fx:id="colPaymentNIC" minWidth="350.0" prefWidth="75.0" text="Payed Person National Identicard Number" />
+            <TableColumn fx:id="colPaymentPrice" minWidth="350.0" prefWidth="75.0" text="Payed mount" />
+            <TableColumn fx:id="colPaymentDate" minWidth="350.0" prefWidth="75.0" text="Payed Date" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="80.0" fitWidth="98.0" layoutX="1131.0" layoutY="344.0">
+         <image>
+            <Image url="@../assets/logo/credit-card.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnAddPayment" layoutX="1130.0" layoutY="344.0" mnemonicParsing="false" onAction="#AddPaymentOnAction" opacity="0.0" prefHeight="80.0" prefWidth="91.0" text="Button" />
+   </children>
+</AnchorPane>

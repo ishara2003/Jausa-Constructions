@@ -1,0 +1,63 @@
+
+
+jButtemcolor.hyperlink{
+    -fx-background-color: red;
+}
+
+#txtUserName{
+    -fx-font-inner-color : red;
+}
+
+.loginbackground{
+    -fx-background-image: url("3.1.jpg");
+}
+
+
+.mainformBackground{
+    -fx-background-image: url(dark-gray-wooden-textured-product-background.jpg);
+}
+
+#jBTN:hover{
+-fx-font-size: 18;
+    -fx-font-color:blue ;
+}
+#btnAdmin:hover{
+    -fx-background-color:  #064264;
+}
+
+#btnClose:hover{
+    -fx-background-color:  #064264;
+}
+
+#btnMainMenu:hover{
+    -fx-background-color:  #064264;
+}
+
+#btnAdmin{
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btnMainMenu{
+    -fx-background-radius: 30 30 30 30;
+}
+#btnClose{
+    -fx-background-radius: 30 30 30 30;
+}
+
+#rBtnAdmin{
+    -fx-background-radius: 20 20 20 20;
+}
+#rBtnManager{
+    -fx-background-radius: 20 20 20 20;
+}
+
+.rBtnAdmin > .radio-button{
+    -fx-background-color: red;
+}
+
+#lblForgetPassword:hover{
+    -f: red;
+}
+.AdminForm{
+    -fx-background-image: url("lm1.png");
+}

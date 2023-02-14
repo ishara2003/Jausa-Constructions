@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AdminForm" prefHeight="995.0" prefWidth="1550.0" style="-fx-background-color: #FFFF;" stylesheets="@../assets/css/styl.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.sankalpa.controller.AdminManageFormController">
+   <children>
+      <ImageView fitHeight="760.0" fitWidth="1550.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/css/lm1.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="tbn_P_O_M" layoutX="22.0" layoutY="364.0" onAction="#p_Ownser_ManageOnAction" prefHeight="384.0" prefWidth="285.0" style="-fx-background-color: #376092;" stylesheets="@../assets/css/AdminForm.css" text="Project Owners Manage" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_P_M" layoutX="628.0" layoutY="364.0" onAction="#Project_ManageOnAction" prefHeight="384.0" prefWidth="292.0" style="-fx-background-color: #376092;" stylesheets="@../assets/css/AdminForm.css" text="Projects Manage" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_Payment" layoutX="942.0" layoutY="364.0" onAction="#Payment_ManageOnAction" prefHeight="392.0" prefWidth="285.0" style="-fx-background-color: #376092;" stylesheets="@../assets/css/AdminForm.css" text="Payment Manage" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_Income" layoutX="1243.0" layoutY="363.0" onAction="#IncomeOnAction" prefHeight="384.0" prefWidth="285.0" style="-fx-background-color: #376092;" stylesheets="@../assets/css/AdminForm.css" text="Income" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_Report" layoutX="325.0" layoutY="368.0" onAction="#ReportOnAction" prefHeight="384.0" prefWidth="292.0" style="-fx-background-color: #376092;" stylesheets="@../assets/css/AdminForm.css" text="Income Report" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="230.0" layoutY="190.0" prefHeight="103.0" prefWidth="1100.0" style="-fx-background-color: #17375E;" text="Admin Form" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

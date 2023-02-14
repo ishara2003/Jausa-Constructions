@@ -1,0 +1,39 @@
+#tbn_P_O_M:hover{
+    -fx-background-color: pink;
+}
+#tbn_P_O_M{
+    -fx-background-color: #bb4747;
+    -fx-background-radius: 50 50 50 50;
+}
+
+#btn_P_M:hover{
+    -fx-background-color: pink;
+}
+#btn_P_M{
+    -fx-background-color: #bb4747;
+    -fx-background-radius: 50 50 50 50;
+}
+
+#btn_Income:hover{
+    -fx-background-color: pink;
+}
+#btn_Income{
+    -fx-background-color: #bb4747;
+    -fx-background-radius: 50 50 50 50;
+}
+
+#btn_Payment:hover{
+    -fx-background-color: pink;
+}
+#btn_Payment{
+    -fx-background-color: #bb4747;
+    -fx-background-radius: 50 50 50 50;
+}
+
+#btn_Report:hover{
+    -fx-background-color: pink;
+}
+#btn_Report{
+    -fx-background-color: yellow;
+    -fx-background-radius: 50 50 50 50;
+}

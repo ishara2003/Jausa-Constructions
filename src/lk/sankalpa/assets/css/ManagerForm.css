@@ -1,0 +1,71 @@
+#tbn_P_O_M:hover{
+    -fx-background-color: #6200EE;
+}
+#tbn_P_O_M{
+  //  -fx-background-color: #bb4747;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btnOrders_For_Unique_Project:hover{
+    -fx-background-color: #6200EE;
+}
+#btnOrders_For_Unique_Project{
+    //-fx-background-color: #6200EE;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_P_M:hover{
+    -fx-background-color: #6200EE;
+}
+#btn_P_M{
+   // -fx-background-color: #bb4747;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_Report:hover{
+    -fx-background-color: #6200EEEE;
+}
+#btn_Report{
+    //-fx-background-color: yellow;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_Stock:hover{
+    -fx-background-color: #6200EE;
+}
+#btn_Stock{
+   // -fx-background-color: #d308d3;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_Employee:hover{
+    -fx-background-color: #6200EE;
+}
+#btn_Employee{
+    //-fx-background-color: #36d909;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_Payment:hover{
+    -fx-background-color: #6200EE;
+}
+#btn_Payment{
+   // -fx-background-color: #bb4747;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btnOrder_Details:hover{
+    -fx-background-color: #6200EE;
+}
+#btnOrder_Details{
+    //-fx-background-color: #087fd7;
+    -fx-background-radius: 30 30 30 30;
+}
+
+#btn_Income:hover{
+    -fx-background-color: #6200EE;
+}
+#btn_Income{
+   // -fx-background-color: #bb4747;
+    -fx-background-radius: 30 30 30 30;
+}
